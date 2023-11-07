@@ -1,10 +1,10 @@
 export const state = {
     hoveredElement: null,
     subcategories: {
-        movies: ['Action', 'Drama', 'Comedy'],
-        tvshows: ['Sci-Fi', 'Drama', 'Comedy'],
-        people: ['Actors', 'Directors', 'Producers'],
-        more: ['Category1', 'Category2', 'Category3'],
+        movies: ['Popular', 'Now Playing', 'Upcoming', 'Top Rated'],
+        tvshows: ['Popular-Fi', 'Airing Today', 'On TV', 'Top Rating'],
+        people: ['Popular People'],
+        more: ['Discussions', 'Support'],
     },
     movies: [],
 };
